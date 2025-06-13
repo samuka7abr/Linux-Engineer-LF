@@ -7,7 +7,7 @@ echo ""
 
 # Solicita a mensagem do commit ao usuário
 # A mensagem começará automaticamente com "Aula: "
-read -p "Digite o resto da mensagem do commit (ex: 'Configuração inicial do projeto'): " mensagem_adicional
+read -p "Digite a mensagem: " mensagem_adicional
 
 # Verifica se a mensagem adicional não está vazia
 if [ -z "$mensagem_adicional" ]; then
